@@ -1,4 +1,4 @@
-package com.learnings.designpatterns.behavioural.strategy;
+package com.learnings.designpatterns.behavioural.strategy.arithmatic_operations_demo;
 
 public class OperationMultiply implements Strategy{
     @Override

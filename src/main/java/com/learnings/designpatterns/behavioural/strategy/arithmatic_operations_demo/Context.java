@@ -1,4 +1,4 @@
-package com.learnings.designpatterns.behavioural.strategy;
+package com.learnings.designpatterns.behavioural.strategy.arithmatic_operations_demo;
 
 //context is the class which use the strategy
 public class Context {
