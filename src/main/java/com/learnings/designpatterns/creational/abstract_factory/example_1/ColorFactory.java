@@ -1,4 +1,4 @@
-package com.learnings.designpatterns.creational.abstract_factory;
+package com.learnings.designpatterns.creational.abstract_factory.example_1;
 
 public class ColorFactory extends AbstractFactory{
     @Override
