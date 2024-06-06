@@ -1,0 +1,1 @@
+If there are large no of animals and creating objects for each animal is a wastage of memory.

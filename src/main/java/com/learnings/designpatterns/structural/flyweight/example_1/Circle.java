@@ -1,4 +1,4 @@
-package com.learnings.designpatterns.structural.flyweight;
+package com.learnings.designpatterns.structural.flyweight.example_1;
 
 public class Circle implements Shape {
 

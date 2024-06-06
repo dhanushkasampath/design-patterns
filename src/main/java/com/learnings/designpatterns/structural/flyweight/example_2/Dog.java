@@ -1,0 +1,20 @@
+package com.learnings.designpatterns.structural.flyweight.example_2;
+
+public class Dog implements Animal {
+
+    private String name = null;
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void printAnimalAttributes() {
+        System.out.println("Name of the animal is " + this.name); // Extrinsic Attribute
+        System.out.println("Number of eyes of animal is " + CommonShareableClass.eyes); // Intrinsic Attribute
+        System.out.println("Number of legs of animal is " + CommonShareableClass.legs);
+        System.out.println("Number of nose of animal is " + CommonShareableClass.nose);
+        System.out.println("Number of tail of animal is " + CommonShareableClass.tail);
+    }
+}
