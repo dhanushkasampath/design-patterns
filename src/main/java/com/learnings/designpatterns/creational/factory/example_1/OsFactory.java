@@ -1,4 +1,4 @@
-package com.learnings.designpatterns.creational.factory;
+package com.learnings.designpatterns.creational.factory.example_1;
 
 public class OsFactory {
     public Os getInstance(String str) {

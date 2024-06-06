@@ -1,4 +1,4 @@
-package com.learnings.designpatterns.creational.factory;
+package com.learnings.designpatterns.creational.factory.example_1;
 
 public class Windows implements Os{
     @Override
