@@ -1,4 +1,4 @@
-package com.learnings.designpatterns.structural.proxy;
+package com.learnings.designpatterns.structural.proxy.example_1;
 
 public class Main {
     public static void main(String[] args) {
