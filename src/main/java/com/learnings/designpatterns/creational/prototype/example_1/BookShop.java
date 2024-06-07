@@ -1,4 +1,4 @@
-package com.learnings.designpatterns.creational.prototype;
+package com.learnings.designpatterns.creational.prototype.example_1;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,0 +1,1 @@
+The main logic here is creating objects using .clone() method instead of using new keyword.
