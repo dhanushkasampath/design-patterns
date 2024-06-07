@@ -1,4 +1,4 @@
-package com.learnings.designpatterns.creational.builder;
+package com.learnings.designpatterns.creational.builder.example_1;
 
 public class Main {
     public static void main(String[] args) {

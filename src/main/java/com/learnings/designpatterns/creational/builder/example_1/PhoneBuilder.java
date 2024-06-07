@@ -1,4 +1,4 @@
-package com.learnings.designpatterns.creational.builder;
+package com.learnings.designpatterns.creational.builder.example_1;
 
 public class PhoneBuilder {
     private String os;
@@ -37,5 +37,5 @@ public class PhoneBuilder {
  * Here what have done is initialized the features of the phone.
  * have setter methods with PhoneBuilder return type.
  *
- * finaly created a getPhone() method to return a phone object.
+ * finally created a getPhone() method to return a phone object.
  */
