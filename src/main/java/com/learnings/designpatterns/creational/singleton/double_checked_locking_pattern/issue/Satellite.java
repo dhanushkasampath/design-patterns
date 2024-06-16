@@ -1,7 +1,9 @@
-package com.learnings.designpatterns.creational.singleton;
+package com.learnings.designpatterns.creational.singleton.double_checked_locking_pattern.issue;
 
 public class Satellite {
-    private Satellite() {}// once the constructor is private you can not create
+    private Satellite() {
+        System.out.println("new satellite object created");
+    }// once the constructor is private you can not create
     // new objects using new key word from other classes
     private static Satellite a;
 
