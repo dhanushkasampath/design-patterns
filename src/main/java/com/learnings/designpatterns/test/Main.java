@@ -17,7 +17,7 @@ class Result {
         for(int i=1; i<=arr.size()-1; i++ ){
             maxSum = maxSum + arr.get(i);
         }
-        System.out.print(minSum+" "+maxSum);
+        System.out.print(minSum + " " + maxSum);
 
     }
 }
