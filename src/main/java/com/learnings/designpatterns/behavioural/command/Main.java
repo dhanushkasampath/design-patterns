@@ -4,8 +4,11 @@ public class Main {
     public static void main(String[] args) {
         Stock abcStock = new Stock();//creates new Stock obj
 
-        BuyStock buyStockOrder = new BuyStock(abcStock);//pass the created Stock obj and create BuyStock and
-        // SellStock objs
+        /**
+         * pass the created Stock obj and create BuyStock and
+         * SellStock objs
+         */
+        BuyStock buyStockOrder = new BuyStock(abcStock);
         SellStock sellStockOrder = new SellStock(abcStock);
 
         Broker broker = new Broker();//creates Broker obj
