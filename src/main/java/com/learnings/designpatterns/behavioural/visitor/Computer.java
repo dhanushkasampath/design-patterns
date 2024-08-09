@@ -2,10 +2,11 @@ package com.learnings.designpatterns.behavioural.visitor;
 
 public class Computer implements ComputerPart {
 
-    ComputerPart[] parts;
+    private final ComputerPart[] parts;
 
+    //constructor
     public Computer() {
-        parts = new ComputerPart[]{new Mouse(), new Keyboard(), new Monitor()};
+        parts = new ComputerPart[]{ new Mouse(), new Keyboard(), new Monitor() }; //creating new array with new objects
     }
 
     @Override

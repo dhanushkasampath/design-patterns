@@ -7,11 +7,11 @@ public class Main {
         StartState startState = new StartState();
         startState.doAction(context);
 
-        System.out.println(context.getState().toString());
+        System.out.println(context.getState().toString()); // A
 
         StopState stopState = new StopState();
         stopState.doAction(context);
 
-        System.out.println(context.getState().toString());
+        System.out.println(context.getState().toString()); // A  all places where A is there represent the same context object. but with different states
     }
 }

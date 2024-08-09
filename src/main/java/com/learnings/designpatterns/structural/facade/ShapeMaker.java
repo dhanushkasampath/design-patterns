@@ -5,6 +5,7 @@ public class ShapeMaker {
     private Shape rectangle;
     private Shape square;
 
+    // when creating a new ShapeMaker object, it creates 3 new objects of circle, rectangle and square
     public ShapeMaker() {
         this.circle = new Circle();
         this.rectangle = new Rectangle();

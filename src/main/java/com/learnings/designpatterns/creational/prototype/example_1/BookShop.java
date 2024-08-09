@@ -15,7 +15,7 @@ public class BookShop implements Cloneable {
             Book b = new Book();
             b.setBid(i);
             b.setBname("Book" + i);
-            getBooks().add(b);
+            books.add(b);
         }
     }
 

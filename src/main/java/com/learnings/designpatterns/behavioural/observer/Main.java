@@ -4,6 +4,14 @@ public class Main {
     public static void main(String[] args) {
         Subject subject = new Subject();
 
+        Observer observer = new Observer() {
+            @Override
+            public void update() {
+                System.out.println("abc");
+            }
+        };
+
+        observer.update();
         new HexaObserver(subject);
         new OctalObserver(subject);
         new BinaryObserver(subject);

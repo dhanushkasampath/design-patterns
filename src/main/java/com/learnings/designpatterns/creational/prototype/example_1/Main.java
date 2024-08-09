@@ -5,7 +5,7 @@ public class Main {
         BookShop bs=new BookShop();
         bs.setShopName("Sarasavi");
         bs.loadDate();
-        System.out.println(bs.hashCode());
+        System.out.println(bs.toString() + bs.hashCode());
 
 //        BookShop bs1=new BookShop();
 //        bs1.setShopName("Gunasena");
@@ -13,9 +13,9 @@ public class Main {
 //        System.out.println(bs1);
 
         //here we take a copy of the first object. not generating books again
-        BookShop bs1=(BookShop)bs.clone();
+        BookShop bs1=(BookShop)bs.clone();//this bs1 already has the books of bs
         bs1.setShopName("Vijitha yapa");
-        System.out.println(bs1.hashCode());
+        System.out.println(bs1.toString() + bs1.hashCode());
 
     }
 }
